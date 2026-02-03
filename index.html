@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <meta name="description" content="Adam Sameer Ahamed Shaik — B.Tech CSE student. Java, AWS, ServiceNow certified." />
+  <link rel="icon" href="images/logo.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="ASA Shaik homepage">
+        <img class="imglogo" src="images/metalogo.jpeg">
+        <span class="brand-label">A._.S._.A._.Shaik</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a class="btn resume" href="assets/AdamSameerAhamedShaik.pdf" download>Resume</a>
+      </nav>
+      <button class="hamburger" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="div-1">
+        <h1 class="hero-name">
+          <span class="line2">Hello!, I'm</span>
+          <span class="line1"><span class="letter-1">A</span>dam <span class="letter-2">S</span>ameer <span class="letter-1">A</span>hamed <span class="letter-2">S</span>haik</span>
+        </h1>
+      </div>
+      <div class="data">
+        <div>
+          <p class="hero-sub">ServiceNow Developer • Java Developer • Problem Solver</p>
+
+          <p class="hero-desc">Computer Science student with solid foundation in programming & data structures. Experienced in building some practical 
+projects using Java, AWS, and ServiceNow. Interested in solving technical problems, development & cloud tools. Looking for 
+opportunities to work on amazing real-world software & learning through hands-on experience. </p>
+          <p class="hero-location">📍 Vijayawada, Andhra Pradesh, India</p>
+        </div>
+        <div>
+          <img class="profileimg" src="images/profile.png">
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a class="btn primary" href="#contact">Let's Get in Touch</a>
+        <a class="btn outline" href="assets/AdamSameerAhamedShaik.pdf" download>Download Resume</a>
+      </div>
+
+      <div class="social-row">
+        <a class="social" href="https://github.com/ADAMSAMEERAHAMEDSHAIK" target="_blank" rel="noopener"><i class="fa-brands fa-square-github"></i></a>
+        <a class="social" href="https://www.linkedin.com/in/asashaik/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="social" href="mailto:adamsameerahamedshaik@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a class="social" href="https://www.instagram.com/__.a_s_a_shaik.__/" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></i></a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section wrap">
+      <h2 class="section-title">ABOUT ME</h2>
+      <p class="section-sub">Building the future, one line of code at a time</p>
+
+      <div class="about-grid">
+        <div class="about-card about-orange">
+          <p><strong>I'm a <em>Computer Science and Engineering student</em></strong> at Aditya College of Engineering and Technology, graduating in 2026. My journey in tech started with curiosity for how things work under the hood, and evolved into a passion for building <strong>scalable, impactful solutions</strong>.</p>
+
+          <p>I don't just write code — I solve problems. Whether it's architecting cloud infrastructure that handles thousands of requests, building AI-powered platforms that help students learn better, or mentoring the next generation of developers, I'm driven by the impact my work can create.</p>
+
+          <p>Currently, I'm focused on <strong>AWS</strong>, <strong>ServiceNow</strong> and <strong>Networking</strong> practices, and full-stack development. I'm always eager to take on new challenges that push the boundaries of what's possible.</p>
+          
+          <p><strong>Education:</strong></p>
+          <h4>Bachelor of Technology — Computer Science & Engineering</h4>
+          <p>Aditya College of Engineering and Technology — Sep 2022 - May 2026 • CGPA: 7.9/10</p>
+
+          <h4>Intermediate — MPC</h4>
+          <p>Narayana Junior College — Jun 2019 - May 2021 • Percentage: 80%</p>
+        </div>
+
+        <div class="about-features">
+          <div id="about-green" class="feature-1">
+            <div class="f-icon">☁️</div>
+            <h4>Cloud Architecture</h4>
+            <p class="feature-p">AWS practitioner with hands-on experience deploying serverless and EC2-based infrastructure and more.</p>
+          </div>
+          <div id="about-blue" class="feature-2">
+            <div class="f-icon">💻</div>
+            <h4>Full-Stack Development</h4>
+            <p class="feature-p">Building end-to-end apps with React, Node.js, and modern JavaScript patterns.</p>
+          </div>
+          <div id="about-red" class="feature-3">
+            <div class="f-icon">🎓</div>
+            <h4>Technical Mentorship</h4>
+            <p class="feature-p">Mentored 300+ students in Java and OOP through live sessions and curated modules.</p>
+          </div>
+          <div id="about-green-lt" class="feature-4">
+            <div class="f-icon">📚</div>
+            <h4>Continuous Learning</h4>
+            <p class="feature-p">Committed to certifications and new tech — AWS, ServiceNow, RedHat, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section wrap alt">
+      <h2 class="section-title">SKILLS & TECHNOLOGIES</h2>
+      <p class="section-sub">The tools and technologies I use to bring ideas to life</p>
+
+      <div class="skills-grid">
+        <div class="skill-tile" data-color="blue">
+          <h5>Programming Languages</h5>
+          <div class="tags"><span>Java</span><span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span></div>
+        </div>
+
+        <div class="skill-tile" data-color="orange">
+          <h5>Technologies</h5>
+          <div class="tags"><span>ServiceNow</span><span>Amazon Web Services</span></div>
+        </div>
+
+        <div class="skill-tile" data-color="green">
+          <h5>Frameworks & Libraries</h5>
+          <div class="tags"><span>React.js</span><span>Node.js</span><span>Express</span><span>Tailwind CSS</span></div>
+        </div>
+
+        <div class="skill-tile" data-color="purple">
+          <h5>Databases & Systems Skills</h5>
+          <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Oracle SQL</span><span>Linux</span></div>
+        </div>
+
+        <div class="skill-tile" data-color="pink">
+          <h5>Developer Tools</h5>
+          <div class="tags"><span>Git/GitHub</span><span>Postman</span><span>Visual Studio Code</span><span>RESTful APIs</span></div>
+        </div>
+
+        <div class="skill-tile" data-color="teal">
+          <h5>Core Concepts</h5>
+          <div class="tags"><span>Object Oriented Programming</span><span>Data Structures</span><span>Operating System</span><span>Networking</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section wrap">
+      <h2 class="section-title">FEATURED PROJECTS</h2>
+      <p class="section-sub">Real-world applications I've built and shipped</p>
+
+      <div class="projects-list">
+        <!-- Nexly -->
+        <article class="proj-card" data-color="pink">
+          <header class="proj-head">
+            <h3>Nexly <span class="pill">Featured</span></h3>
+            <time>Jun 2025 — Jul 2025</time>
+          </header>
+          <p class="proj-sub">AI-Powered Resource Platform & Chrome Extension</p>
+          <div class="tech-tags"><span>React.js</span><span>Node.js</span><span>OpenAI</span><span>AWS (Lambda & DynamoDB)</span><span>ServiceNow</span><span> Express.js</span><span>Tailwind CSS</span></div>
+          <div class="proj-body">
+            <p>An intelligent platform with a Chrome extension for collecting, organizing, and summarizing educational resources. Features an AI Copilot for generating summaries and insights, plus real-time doubt clarification during study sessions.</p>
+
+            <ul class="metrics">
+              <li><strong>1,200+</strong><span>Learning resources</span></li>
+              <li><strong>79%</strong><span>Accessibility boost</span></li>
+              <li><strong>52%</strong><span>Cost reduction</span></li>
+              <li><strong>50%</strong><span>Faster retrieval</span></li>
+            </ul>
+
+            <div class="proj-achievements">
+              <ul>
+                <li>Stored and organized 1,200+ educational resources.</li>
+                <li>Integrated ServiceNow for admin workflows — eliminated 75% of custom UI work.</li>
+                <li>Optimized serverless architecture with AWS Lambda and DynamoDB.</li>
+                <li><strong>GitHub Link: </strong><a class="link" href="https://github.com/ADAMSAMEERAHAMEDSHAIK/Nexly.git" target="_blank" rel="noopener">https://github.com/ADAMSAMEERAHAMEDSHAIK/Nexly.git</a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service Sphere -->
+        <article class="proj-card" data-color="blue">
+          <header class="proj-head">
+            <h3>Service Sphere <span class="pill">Featured</span></h3>
+            <time>Jul 2024 — Aug 2024</time>
+          </header>
+          <p class="proj-sub">Unified Professional & Personal Services Platform</p>
+          <div class="tech-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>AWS</span></div>
+          <div class="proj-body">
+            <p>A centralized platform integrating 12 distinct professional and personal services on scalable AWS cloud infrastructure.</p>
+
+            <ul class="metrics">
+              <li><strong>45%</strong><span>Time saved</span></li>
+              <li><strong>30%</strong><span>Adoption increase</span></li>
+              <li><strong>25%</strong><span>Throughput boost</span></li>
+              <li><strong>94.99%</strong><span>Availability</span></li>
+            </ul>
+
+            <div class="proj-achievements">
+              <ul>
+                <li>Integrated 12 professional and personal services into one unified platform.</li>
+                <li>Configured SSL/TLS and efficient traffic routing.</li>
+                <li>Architected scalable AWS infra and autoscaling policies.</li>
+                <li><strong>GitHub Link: </strong><a class="link" href="https://github.com/ADAMSAMEERAHAMEDSHAIK/Iship_Project.git" target="_blank" rel="noopener">https://github.com/ADAMSAMEERAHAMEDSHAIK/Iship_Project.git</a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- Inventory Management System- Java Based Application -->
+        <article class="proj-card " data-color="darkpink">
+          <header class="proj-head">
+            <h3>Inventory Management System- Java Based Application <span class="pill">Featured</span></h3>
+            <time>Apr 2024 — May 2024</time>
+          </header>
+          <p class="proj-sub">Unified Professional & Personal Services Platform</p>
+          <div class="tech-tags"><span>Java</span><span>JDBC</span><span>Java GUI Frameworks (Swing, AWT)</span><span>MySQL</span></div>
+          <div class="proj-body">
+            <p>A centralized platform integrating 12 distinct professional and personal services on scalable AWS cloud infrastructure.</p>
+
+            <ul class="metrics">
+              <li><strong>50+</strong><span>Daily requests</span></li>
+              <li><strong>99%</strong><span>Request success rate</span></li>
+              <li><strong>100%</strong><span>CRUD functionality</span></li>
+              <li><strong>94.99%</strong><span>User-friendly</span></li>
+            </ul>
+
+            <div class="proj-achievements">
+              <ul>
+                <li>Identified need for a real-time system to handle 50+ daily inventory requests across department.</li>
+                <li>Developed a Java application with JDBC and a user-friendly GUI for seamless database operations.</li>
+                <li> Implemented MySQL-backed CRUD functionality.</li>
+                <li><strong>GitHub Link: </strong><a class="link" href="https://github.com/ADAMSAMEERAHAMEDSHAIK/Java-Projects.git" target="_blank" rel="noopener">https://github.com/ADAMSAMEERAHAMEDSHAIK/Java-Projects.git</a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="proj-card" data-color="purple">
+          <header class="proj-head">
+            <h3>Portfolio <span class="pill">Featured</span></h3>
+            <time>Jun 2023 — Jul 2023</time>
+          </header>
+          <p class="proj-sub">Professional Portfolio</p>
+          <div class="tech-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          <div class="proj-body">
+            <p>A professional and interactive portfolio website built using HTML5, CSS3 and JavaScript (ES6+)</p>
+
+            <ul class="metrics">
+              <li><strong>99%</strong><span>Smooth navigation</span></li>
+              <li><strong>73%</strong><span>Clean UI</span></li>
+              <li><strong>93%</strong><span>Fast Actions</span></li>
+            </ul>
+
+            <div class="proj-achievements">
+              <ul>
+                <li>It serves as a central space to showcase my profile, including a summary, detailed about me section, experience, certifications, personal projects.</li>
+                <li>The portfolio features a clean UI, responsive design, and smooth navigation to give recruiters and peers a comprehensive view of my journey.</li>
+                <li><strong>GitHub Link: </strong><a class="link" href="" target="_blank" rel="noopener"></a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section wrap alt">
+      <h2 class="section-title">EXPERIENCE</h2>
+      <p class="section-sub">Where I've contributed and grown</p>
+
+      <div class="timeline-wrap">
+        <div class="timeline-line" aria-hidden="true"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-card" data-color="teal">
+            <div class="tl-head">
+              <h4>AWS Intern</h4>
+              <span class="muted">Technical Hub — May 2024 · Jul 2024</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Acquired hands-on expertise in AWS Cloud Fundamentals, including both server-based and serverless services.</li>
+              <li>Implemented and optimized deployment strategies for 15 distinct AWS services to enhance scalability, security and system per-
+formance.</li>
+              <li>Streamlined API workflows by developing structured Postman collections, achieving the Postman API Fundamentals Student
+Expert certification for proficiency in API testing and automation.</li>
+            </ul>
+            <div class="skill-tags"><span>Amazon Web Services</span><span>Cloud Computing</span><span>Learning</span><span>Networking</span><span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span><span>JSON</span><span>XML</span></div>
+          </div>
+        </div>
+
+      <div class="timeline-wrap">
+        <div class="timeline-line" aria-hidden="true"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-card" data-color="purple">
+            <div class="tl-head">
+              <h4>Java Intern</h4>
+              <span class="muted">Technical Hub — Aug 2024 · Nov 2024</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Delivered comprehensive mentorship across 30+ live sessions to 300+ students.</li>
+              <li>Drove a 25% improvement in overall student performance metrics and increased coding fluency by 45%.</li>
+              <li>Designed and implemented 5 structured learning modules, reducing grading time by 25%.</li>
+            </ul>
+            <div class="skill-tags"><span>Java</span><span>OOP</span><span>Teaching</span><span>Curriculum Design</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section wrap alt">
+      <h2 class="section-title">CERTIFICATIONS</h2>
+      <p class="section-sub">Industry-recognized credentials that validate my expertise</p>
+
+      <div class="certs-grid">
+        <div class="cert card-orange"><h5><a class="link" href="https://drive.google.com/file/d/1seB2qNiwnJbCd2S8fliZrptGmNQ5TfwO/view?usp=sharing" target="_blank" rel="noopener">AWS Cloud Practitioner</a></h5><small>21 Jun 2025</small></div>
+        <div class="cert card-green"><h5><a class="link" href="https://drive.google.com/file/d/1s_0SHIxWwhtJ4cp6A0L-96Of-PoWZNFp/view?usp=sharing" target="_blank" rel="noopener">ServiceNow - CSA</a></h5><small>24 May 2025</small></div>
+        <div class="cert card-green-lt"><h5><a class="link" href="https://drive.google.com/file/d/1hRgUYEUuDxfwysChQAAJrpuKAZ1f6dGQ/view?usp=sharing" target="_blank" rel="noopener">ServiceNow - CAD</a></h5><small>26 May 2025</small></div>
+        <div class="cert card-red"><h5><a class="link" href="https://drive.google.com/file/d/1VEWPNxA06pQhpiozwtFQ-HD_rf2fsqBz/view?usp=sharing" target="_blank" rel="noopener">RHCSA</a></h5><small>20 Jun 2025</small></div>
+        <div class="cert card-blue"><h5><a class="link" href="https://drive.google.com/file/d/1SCj9CfYWLJeJGUe4qJ4z5rLQhlGFYZax/view?usp=sharing" target="_blank" rel="noopener">IT Specialist - Java</a></h5><small>5 Jul 2024</small></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section wrap">
+      <h2 class="section-title">LET'S CONNECT</h2>
+      <p class="section-sub">Have a project in mind or want to chat? I’d love to hear from you.</p>
+
+      <div class="contact-grid">
+        <aside class="contact-card">
+          <h3>Let's Get in Touch</h3>
+          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+
+          <ul class="contact-info">
+            <li><strong>Email</strong><br><a href="mailto:adamsameerahamedshaik@gmail.com">adamsameerahamedshaik@gmail.com</a></li>
+            <li><strong>Phone</strong><br><a href="tel:+918978725155">+91-8978725155</a></li>
+            <li><strong>Location</strong><br>Vijayawada, Andhra Pradesh, India</li>
+          </ul>
+
+          <div class="contact-socials">
+            <h4>Social network:</h4>
+            <ul>
+              <li><a href="https://github.com/ADAMSAMEERAHAMEDSHAIK" target="_blank" rel="noopener">GitHub</a><br></li>
+              <li><a href="https://www.linkedin.com/in/asashaik/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/__.a_s_a_shaik.__/" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="cname">Full Name</label>
+          <input type="text" id="cname" name="name" placeholder="Enter your name" required>
+
+          <label for="cemail">Email Address</label>
+          <input id="cemail" name="email" type="email" placeholder="ABCD@example.com" required>
+
+          <label for="cmessage">Message</label>
+          <textarea id="cmessage" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formStatus" aria-live="polite" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-left">
+        <a class="direct" href="#home"><strong>Adam Sameer Ahamed Shaik</strong></a>
+        <p>ServiceNow Developer, Java Developer, Problem Solver, Cloud engineer & Full-Stack Developer building scalable solutions. Always learning, always growing.</p>
+      </div>
+      <div class="footer-links">
+        <a class="direct" href="#about">About</a><br><a class="direct" href="#skills">Skills</a><br><a class="direct" href="#projects">Projects</a><br><a class="direct" href="#experience">Experience</a><br><a class="direct" href="#certs">Certifications</a><br><a class="direct" href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a class="foot" href="https://github.com/ADAMSAMEERAHAMEDSHAIK" target="_blank" rel="noopener"><i class="fa-brands fa-square-github"></i></a><br>
+        <a class="foot" href="https://www.linkedin.com/in/asashaik/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a><br>
+        <a class="foot" href="mailto:adamsameerahamedshaik@gmail.com"><i class="fa-solid fa-envelope"></i></a><br>
+        <a class="foot" href="https://www.instagram.com/__.a_s_a_shaik.__/" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom wrap">© <span id="year"></span> Adam Sameer Ahamed Shaik — All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
